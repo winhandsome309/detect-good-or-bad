@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+.main.touched {
+    background-color: red;
+
+}
+
 .video {
     margin-top: 100px;
     width: 480px;
@@ -13,11 +18,32 @@
 }
 
 .control {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+/* .btn {
+    padding: 4px 16px;
+    font-size: 1.4rem;
+    margin: 100 8px;
+  } */
+
+.btn_g {
+    padding: 10px 16px;
+    font-size: 1.4rem;
+    margin: 0 8px;
+    color: green;
+}
+
+.btn_b {
+    padding: 10px 16px;
+    font-size: 1.4rem;
+    margin: 0 8px;
+    color: red;
 }
 
 .btn {
-    padding: 4px 16px;
+    padding: 20px 20px;
+    border-radius: 20px;
     font-size: 1.4rem;
-    margin: 0 8px;
+    margin: 30px 8px;
 }
